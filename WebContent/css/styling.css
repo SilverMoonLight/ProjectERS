@@ -1,0 +1,147 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: linear-gradient(120deg, #CCF3FA, #effbfd);
+}
+
+.container, strong {
+  display: block;
+  width: 500px;
+  margin: 100px auto 0;
+  background-color: blue;
+  padding: 50px;
+  color: white;
+  border-radius: 25px;
+}
+
+#container  {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+strong {
+	text-align: center;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #22f5f5;
+  font-style: italic;
+  color: #2233aa;
+  font-size: 120%;
+}
+
+
+
+
+
+
+nav {
+	text-align: right;
+	padding: 0px 20px;
+	background: linear-gradient(90deg, #6699FF, #00C3E6); 
+	
+}
+nav ul li {
+	display: inline;
+	padding: 20px;
+	background: url("images/employee.jpg");
+	
+	
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:HOVER {
+	color: #000;
+	text-decoration: none;
+}
+
+nav ul li img {
+	height: 5%;
+	width: 5%;
+}
+
+nav ul li:nth-child(2) img {
+	height: 10%;
+	width: 10%;
+}
+
+nav ul li img:HOVER {
+	height: 8%;
+	width: 8%;
+}
+nav ul li:nth-child(2) img:HOVER {
+	height: 15%;
+	width: 15%;
+}
+
+nav ul li:first-child {
+		background: linear-gradient(120deg, #498be5, #3a6ff7);
+		border-radius: 25px;
+		color: #fff;
+}
+
+nav ul li:first-child:HOVER {
+		background: linear-gradient(120deg, #498be5, #3a6fb7);
+		border-radius: 25px;
+		color: #fff;
+}
+
+#pendingImg {
+	height: 5%;
+	width: 5%;
+}
+
+#pendingImg:HOVER {
+	height: 8%;
+	width: 8%;
+}
+
+.header {
+	background: linear-gradient(90deg, #498be5, #1D375B);
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+	border-radius: 30px;
+}
+
+h1 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(90deg, #a4c5f2, #c8dcf7);
+    width: 15em;
+    color: #1d375b;
+}
+
+.error h1 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(90deg, #a4c5f2, #c8dcf7);
+    width: 15em;
+    color: #1d375b;
+}
+
+.space {
+	background-color: blue;
+	width: 1px;
+}
+
+#logo {
+	display: block;
+  width: 400px;
+  margin: 100px auto 0;
+  background-color: white;
+  padding: 50px;
+  color: white;
+}
+
+#logoname {
+	width: 400px;
+}
